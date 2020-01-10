@@ -35,5 +35,6 @@ Route::get('/pruebasP','PostController@pruebas');
 
 Route::post('usuario/registro', 'UserController@register');
 Route::post('usuario/login', 'UserController@login');
+Route::post('usuario/login', 'UserController@testegit');
 
 //---------------- Rutas del Controlador de usuarios----------------
